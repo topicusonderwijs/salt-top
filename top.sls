@@ -6,4 +6,4 @@
 include:
   - types.*
   - roles.*
-  - hosts.*
+#  - hosts.*

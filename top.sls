@@ -4,6 +4,6 @@
 #    - firewall
 
 include:
-#  - types.*
+  - types.*
   - roles.*
 #  - hosts.*

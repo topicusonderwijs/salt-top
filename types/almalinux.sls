@@ -1,5 +1,4 @@
 base:
-  'osfinger:AlmaLinux-8':
-    - match: grain
+  'G@osfinger:AlmaLinux-8':
     - rngd
     - netbox

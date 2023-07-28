@@ -1,5 +1,4 @@
 base:
-  'osfinger:CentOS Linux-7':
-    - match: grain
+  'G@osfinger:CentOS Linux-7':
     - haveged
     - netbox

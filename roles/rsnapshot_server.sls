@@ -1,4 +1,4 @@
 base:
-  'G@roles:rsnapshot-server':
+  'G@roles:rsnapshot_server':
     - rsnapshot.server
     - postgresql

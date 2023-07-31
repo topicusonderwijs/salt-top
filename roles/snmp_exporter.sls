@@ -1,3 +1,3 @@
 base:
-  'G@roles:snmp-exporter':
+  'G@roles:snmp_exporter':
     - prometheus.snmp-exporter

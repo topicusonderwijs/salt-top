@@ -1,5 +1,5 @@
 base:
   'osfinger:CentOS Linux-7':
-    - match:grain
+    - match: grain
     - haveged
     - netbox

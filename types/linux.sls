@@ -4,3 +4,7 @@ base:
     - baseline
     - ntp
     - sysctl
+    - salt.minion
+    - sudoers.topicus
+    - openssh
+    - sssd

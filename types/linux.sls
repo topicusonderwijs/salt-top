@@ -8,3 +8,4 @@ base:
     - sudoers.topicus
     - openssh
     - sssd
+    - prometheus.node-exporter

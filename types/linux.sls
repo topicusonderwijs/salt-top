@@ -9,3 +9,4 @@ base:
     - openssh
     - sssd
     - prometheus.node-exporter
+    - check31

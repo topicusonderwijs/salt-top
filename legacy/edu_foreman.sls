@@ -1,7 +1,5 @@
 base:
   'edu-foreman.topicusonderwijs.local':
-    - postgresql
-    - prometheus.postgres-exporter
     - sudoers
 # Replace with role harvest   
   'harvest-4i9.nonprod.netapp.infra.pdc.topicus.education':

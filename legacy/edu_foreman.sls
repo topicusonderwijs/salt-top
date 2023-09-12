@@ -6,9 +6,6 @@ base:
 # Replace with role docker
   '*k8s*':
     - docker_ce
-# Replace with role m3dbnode
-  'ops-m3db-rs*':
-    - m3.m3dbnode
 # Replace with roles m3aggregator and m3coordinator
   'ops-m3agg*':
     - m3.m3aggregator

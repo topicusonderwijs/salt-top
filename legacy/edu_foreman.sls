@@ -1,6 +1,4 @@
 base:
-  'edu-foreman.topicusonderwijs.local':
-    - sudoers
 # Replace with role harvest   
   'harvest-4i9.nonprod.netapp.infra.pdc.topicus.education':
     - harvest

@@ -3,11 +3,6 @@ base:
   'harvest-4i9.nonprod.netapp.infra.pdc.topicus.education':
     - harvest
     - grafana_agent
-# Replace with roles m3aggregator and m3coordinator
-  'ops-m3agg*':
-    - m3.m3aggregator
-    - m3.m3coordinator
-    - ghostunnel
   'ctrl-*.nonprod.parnassys.*':
     - falco
     - rke2.server

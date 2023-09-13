@@ -8,9 +8,6 @@ base:
     - rke2.server
   'wrkr-*.nonprod.parnassys.*':
     - rke2.agent
-# Replace with role snmp-exporter
-  'edu-prometheus0[0-2].*':
-    - prometheus.snmp-exporter
 # Replace with role rsnapshot-server
   'ops-backup01.*':
     - rsnapshot.server

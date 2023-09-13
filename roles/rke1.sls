@@ -1,3 +1,3 @@
 base:
-  'G@roles:docker':
+  'G@roles:rke1':
     - docker_ce

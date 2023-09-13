@@ -3,9 +3,6 @@ base:
   'harvest-4i9.nonprod.netapp.infra.pdc.topicus.education':
     - harvest
     - grafana_agent
-# Replace with role docker
-  '*k8s*':
-    - docker_ce
 # Replace with roles m3aggregator and m3coordinator
   'ops-m3agg*':
     - m3.m3aggregator

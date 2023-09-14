@@ -8,10 +8,6 @@ base:
     - rke2.server
   'wrkr-*.nonprod.parnassys.*':
     - rke2.agent
-# Replace with role rsnapshot-server
-  'ops-backup01.*':
-    - rsnapshot.server
-    - postgresql
   'G@roles:terraform_rke2':
     - selinux
     - rke2.repo
@@ -26,4 +22,3 @@ base:
   'pg-app-???.nonprod.ultimview.parnassys.pdc.topicus.education':
     - postgresql
     - prometheus.postgres-exporter
-    

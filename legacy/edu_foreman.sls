@@ -21,3 +21,13 @@ base:
     - systemupdate
   'edu-alertmanager*':
     - ghostunnel
+  # Replace role haproxy
+  'cmb-prod01.vl23.pdc.topicus.education':
+    - haproxy
+    - prometheus.haproxy-exporter
+  # Replace role haproxy
+  'cmb-test01.vl23.pdc.topicus.education':
+    - haproxy
+    - prometheus.haproxy-exporter
+  'parro-db01.vl23.pdc.topicus.education':
+    - haproxy

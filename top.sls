@@ -3,5 +3,5 @@ include:
   - roles.*
 # hosts dir not used yet
 #  - hosts.*
-# TODO: legacy dir will ben emptied and removed 
+# TODO: legacy dir will be emptied and removed 
   - legacy.*

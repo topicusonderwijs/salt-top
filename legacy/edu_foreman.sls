@@ -8,3 +8,10 @@ base:
     - selinux
     - rke2.repo
     - prometheus.node-exporter
+
+  'edu-prometheus02.*':
+    - confd
+    - prometheus.blackbox-exporter 
+    - prometheus.haproxy-exporter
+    - prometheus.prometheus02
+    - systemupdate

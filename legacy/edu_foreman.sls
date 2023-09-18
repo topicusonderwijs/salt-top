@@ -21,3 +21,5 @@ base:
     - systemupdate
   'edu-alertmanager*':
     - ghostunnel
+  'ops-security-h94ls2.obsrv.infra.pdc.topicus.education':
+    - nessus

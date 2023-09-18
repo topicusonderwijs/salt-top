@@ -15,3 +15,5 @@ base:
     - prometheus.haproxy-exporter
     - prometheus.prometheus2
     - systemupdate
+  'ops-k8s-node04.topicusonderwijs.local':
+    - systemupdate

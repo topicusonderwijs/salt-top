@@ -21,3 +21,7 @@ base:
     - systemupdate
   'parro-k8s-control2.topicusonderwijs.local':
     - systemupdate
+  'parro-k8s-worker9.vl23.pdc.topicus.education':
+    - systemupdate
+  'parro-k8s-control3.topicusonderwijs.local':
+    - systemupdate

@@ -17,3 +17,5 @@ base:
     - systemupdate
   'ops-k8s-node04.topicusonderwijs.local':
     - systemupdate
+  'parro-k8s*':
+    - systemupdate

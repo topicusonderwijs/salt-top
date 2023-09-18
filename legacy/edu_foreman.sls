@@ -13,5 +13,5 @@ base:
     - confd
     - prometheus.blackbox-exporter 
     - prometheus.haproxy-exporter
-    - prometheus.prometheus02
+    - prometheus.prometheus2
     - systemupdate

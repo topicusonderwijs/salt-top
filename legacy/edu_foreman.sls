@@ -19,3 +19,5 @@ base:
     - systemupdate
   'parro-k8s-*':
     - systemupdate
+  'edu-alertmanager*':
+    - ghostunnel

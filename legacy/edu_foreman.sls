@@ -36,3 +36,5 @@ base:
     - postfix.postmark
   'kh-artifactory01.artfcts.keyhub.pdc.topicus.education':
     - postgresql
+  'parro-db01.vl23.pdc.topicus.education':
+    - postgresql

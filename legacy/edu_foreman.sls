@@ -29,3 +29,5 @@ base:
     - pgbouncer
   'som-pg-db3.vl21.pdc.topicus.education':
     - pgbouncer
+  'ops-nextcloud01.vl22.pdc.topicus.education':
+    - postfix

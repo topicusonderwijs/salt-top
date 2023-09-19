@@ -51,3 +51,5 @@ base:
     - prometheus.prometheus2
   'edu-ldap02.topicusonderwijs.local':
     - prometheus.openldap-exporter
+  'parnassys-db*':
+    - prometheus.postgres-exporter

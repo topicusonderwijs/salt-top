@@ -31,3 +31,5 @@ base:
     - pgbouncer
   'ops-nextcloud01.vl22.pdc.topicus.education':
     - postfix
+  'smtp01.prod.cmld.pdc.topicus.education':
+    - postfix.postmark

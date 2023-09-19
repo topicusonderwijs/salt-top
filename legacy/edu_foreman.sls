@@ -42,6 +42,7 @@ base:
     - prometheus.postgres-exporter
   'som-pg-db06.vl21.pdc.topicus.education':
     - postgresql
+    - prometheus.postgres-exporter
   'edu-ns01.topicusonderwijs.local':
     - powerdns.server
   'edu-ns02.topicusonderwijs.local':
@@ -58,5 +59,4 @@ base:
     - prometheus.postgres-exporter
   'som-acc-pg-db.topicusonderwijs.local':
     - prometheus.postgres-exporter
-  'som-pg-db06.vl21.pdc.topicus.education':
-    - prometheus.postgres-exporter
+  

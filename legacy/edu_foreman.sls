@@ -53,3 +53,7 @@ base:
     - prometheus.openldap-exporter
   'parnassys-db*':
     - prometheus.postgres-exporter
+  'parro-db01.vl23.pdc.topicus.education':
+    - prometheus.postgres-exporter
+  'parro-db2.topicusonderwijs.local':
+    - prometheus.postgres-exporter

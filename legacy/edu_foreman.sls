@@ -26,6 +26,7 @@ base:
   'cmb-pg-test01.vl23.pdc.topicus.education':
     - pgbouncer
     - postgresql
+    - prometheus.postgres-exporter
   'som-pg-db1.topicusonderwijs.local':
     - pgbouncer
   'som-pg-db3.vl21.pdc.topicus.education':

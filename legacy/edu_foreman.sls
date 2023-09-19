@@ -39,6 +39,7 @@ base:
     - postgresql
   'parro-db01.vl23.pdc.topicus.education':
     - postgresql
+    - prometheus.postgres-exporter
   'som-pg-db06.vl21.pdc.topicus.education':
     - postgresql
   'edu-ns01.topicusonderwijs.local':
@@ -52,8 +53,6 @@ base:
   'edu-ldap02.topicusonderwijs.local':
     - prometheus.openldap-exporter
   'parnassys-db*':
-    - prometheus.postgres-exporter
-  'parro-db01.vl23.pdc.topicus.education':
     - prometheus.postgres-exporter
   'parro-db2.topicusonderwijs.local':
     - prometheus.postgres-exporter

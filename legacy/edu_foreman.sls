@@ -38,3 +38,5 @@ base:
     - postgresql
   'parro-db01.vl23.pdc.topicus.education':
     - postgresql
+  'som-pg-db06.vl21.pdc.topicus.education':
+    - postgresql

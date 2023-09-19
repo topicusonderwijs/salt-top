@@ -34,3 +34,5 @@ base:
     - postfix
   'smtp01.prod.cmld.pdc.topicus.education':
     - postfix.postmark
+  'kh-artifactory01.artfcts.keyhub.pdc.topicus.education':
+    - postgresql

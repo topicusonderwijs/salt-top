@@ -48,3 +48,5 @@ base:
     - prometheus.blackbox-exporter
     - prometheus.haproxy-exporter
     - prometheus.prometheus2
+  'edu-ldap02.topicusonderwijs.local':
+    - prometheus.openldap-exporter

@@ -44,3 +44,7 @@ base:
     - powerdns.server
   'edu-ns02.topicusonderwijs.local':
     - powerdns.server
+  'edu-prometheus01.topicusonderwijs.local':
+    - prometheus.blackbox-exporter
+    - prometheus.haproxy-exporter
+    - prometheus.prometheus2

@@ -13,14 +13,6 @@ base:
     - systemupdate
   'parro-k8s-*':
     - systemupdate
-  'cmb-pg-test01.vl23.pdc.topicus.education':
-    - pgbouncer
-    - postgresql
-    - prometheus.postgres-exporter
-  'som-pg-db1.topicusonderwijs.local':
-    - pgbouncer
-  'som-pg-db3.vl21.pdc.topicus.education':
-    - pgbouncer
   'ops-nextcloud01.vl22.pdc.topicus.education':
     - postfix
   'smtp01.prod.cmld.pdc.topicus.education':

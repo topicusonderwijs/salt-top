@@ -23,7 +23,3 @@ base:
     - prometheus.postgres-exporter
   'som-acc-pg-db.topicusonderwijs.local':
     - prometheus.postgres-exporter
-  'edu-ad02.topicus.education':
-    - win_zabbix
-  'parnassys-wall.topicus.education':
-    - win_zabbix

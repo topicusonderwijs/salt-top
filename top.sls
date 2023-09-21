@@ -1,7 +1,6 @@
 include:
   - types.*
   - roles.*
-# hosts dir not used yet
-#  - hosts.*
+  - hosts.*
 # TODO: legacy dir will be emptied and removed 
   - legacy.*

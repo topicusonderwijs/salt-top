@@ -13,14 +13,6 @@ base:
     - systemupdate
   'parro-k8s-*':
     - systemupdate
-  'kh-artifactory01.artfcts.keyhub.pdc.topicus.education':
-    - postgresql
-  'parro-db01.vl23.pdc.topicus.education':
-    - postgresql
-    - prometheus.postgres-exporter
-  'som-pg-db06.vl21.pdc.topicus.education':
-    - postgresql
-    - prometheus.postgres-exporter
   'edu-ns01.topicusonderwijs.local':
     - powerdns.server
   'edu-ns02.topicusonderwijs.local':

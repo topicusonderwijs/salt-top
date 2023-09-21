@@ -15,8 +15,6 @@ base:
     - systemupdate
   'edu-alertmanager*':
     - ghostunnel
-  'ops-security-h94ls2.obsrv.infra.pdc.topicus.education':
-    - nessus
   'cmb-pg-test01.vl23.pdc.topicus.education':
     - pgbouncer
     - postgresql

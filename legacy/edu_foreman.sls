@@ -17,9 +17,3 @@ base:
     - powerdns.server
   'edu-ns02.topicusonderwijs.local':
     - powerdns.server
-  'parnassys-db*':
-    - prometheus.postgres-exporter
-  'parro-db2.topicusonderwijs.local':
-    - prometheus.postgres-exporter
-  'som-acc-pg-db.topicusonderwijs.local':
-    - prometheus.postgres-exporter

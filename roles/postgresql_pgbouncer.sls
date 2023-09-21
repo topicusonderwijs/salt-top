@@ -7,4 +7,4 @@ base:
     - postgresql
     - prometheus.haproxy-exporter
     - prometheus.pgbouncer-exporter 
-    - prometheus.postgresql-exporter 
+    - prometheus.postgres-exporter 

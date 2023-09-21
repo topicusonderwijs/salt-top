@@ -9,12 +9,6 @@ base:
     - rke2.repo
     - prometheus.node-exporter
 
-  'edu-prometheus02.*':
-    - confd
-    - prometheus.blackbox-exporter 
-    - prometheus.haproxy-exporter
-    - prometheus.prometheus2
-    - systemupdate
   'ops-k8s-node04.topicusonderwijs.local':
     - systemupdate
   'parro-k8s-*':
@@ -47,10 +41,6 @@ base:
     - powerdns.server
   'edu-ns02.topicusonderwijs.local':
     - powerdns.server
-  'edu-prometheus01.topicusonderwijs.local':
-    - prometheus.blackbox-exporter
-    - prometheus.haproxy-exporter
-    - prometheus.prometheus2
   'edu-ldap02.topicusonderwijs.local':
     - prometheus.openldap-exporter
   'parnassys-db*':

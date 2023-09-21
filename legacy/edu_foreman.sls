@@ -13,10 +13,6 @@ base:
     - systemupdate
   'parro-k8s-*':
     - systemupdate
-  'ops-nextcloud01.vl22.pdc.topicus.education':
-    - postfix
-  'smtp01.prod.cmld.pdc.topicus.education':
-    - postfix.postmark
   'kh-artifactory01.artfcts.keyhub.pdc.topicus.education':
     - postgresql
   'parro-db01.vl23.pdc.topicus.education':

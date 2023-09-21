@@ -17,8 +17,6 @@ base:
     - powerdns.server
   'edu-ns02.topicusonderwijs.local':
     - powerdns.server
-  'edu-ldap02.topicusonderwijs.local':
-    - prometheus.openldap-exporter
   'parnassys-db*':
     - prometheus.postgres-exporter
   'parro-db2.topicusonderwijs.local':

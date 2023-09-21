@@ -13,8 +13,6 @@ base:
     - systemupdate
   'parro-k8s-*':
     - systemupdate
-  'edu-alertmanager*':
-    - ghostunnel
   'cmb-pg-test01.vl23.pdc.topicus.education':
     - pgbouncer
     - postgresql

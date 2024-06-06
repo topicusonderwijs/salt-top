@@ -9,5 +9,10 @@ base:
     - sudoers.topicus
     - openssh
     - sssd
-    - prometheus.node-exporter
+    - selinux
+    # - grafana-alloy
     - check31
+
+  'G@kernel:Linux and not G@virtual:physical':
+    - match: compound
+    - haveged

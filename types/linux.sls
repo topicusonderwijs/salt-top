@@ -10,7 +10,7 @@ base:
     - openssh
     - sssd
     - selinux
-    # - grafana-alloy
+    - grafana-alloy
     - check31
 
   'G@kernel:Linux and not G@virtual:physical':

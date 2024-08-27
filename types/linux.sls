@@ -12,6 +12,7 @@ base:
     - selinux
     - grafana-alloy
     - check31
+    - netbox
 
   'G@kernel:Linux and not G@virtual:physical':
     - match: compound

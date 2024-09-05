@@ -13,6 +13,7 @@ base:
     - grafana-alloy
     - check31
     - netbox
+    - lvm
 
   'G@kernel:Linux and not G@virtual:physical':
     - match: compound

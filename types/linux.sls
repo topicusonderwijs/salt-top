@@ -6,6 +6,7 @@ base:
     - sysctl
     - salt.pkgrepo
     - salt.minion
+    - salt.minion_systemd_override
     - sudoers.topicus
     - openssh
     - sssd

@@ -1,5 +1,5 @@
 base:
-  'G@kernel:Linux':
+  'G@kernel:Linux and not G@os:XCP-ng':
     - firewall
     - baseline
     - ntp
@@ -16,6 +16,6 @@ base:
     - netbox
     - lvm
 
-  'G@kernel:Linux and not G@virtual:physical':
+  'G@kernel:Linux and not G@virtual:physical and not G@os:XCP-ng':
     - match: compound
     - haveged

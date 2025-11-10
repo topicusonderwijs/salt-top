@@ -7,7 +7,3 @@ base:
     {% else %}
     - haveged
     {% endif %}
-
-  'G@virtual:physical and G@kernel:Linux and G@manufacturer:Dell*':
-    - match: compound
-    - netsnmp

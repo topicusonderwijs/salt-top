@@ -5,5 +5,7 @@ base:
     - haproxy
     - pgbouncer
     - postgresql
+    - postgresql.pgbackrest
     - prometheus.pgbouncer-exporter 
-    - prometheus.postgres-exporter 
+    - prometheus.postgres-exporter
+    - prometheus.pgbackrest-exporter

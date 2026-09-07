@@ -11,10 +11,11 @@ base:
     - openssh
     - sssd
     - selinux
-    - grafana-alloy
+    - alloy
     - check31
     - netbox
     - lvm
+    - auditd
 
   'G@kernel:Linux and not G@virtual:physical and not G@os:XCP-ng':
     - match: compound

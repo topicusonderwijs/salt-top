@@ -3,4 +3,4 @@ base:
     - salt.minion
     - xcp_ng
     - netbox
-    - grafana-alloy
+    - alloy
